@@ -2,7 +2,7 @@
     "variables": [],
     "info": {
         "name": "wshop API",
-        "_postman_id": "6ba89973-a134-4f14-861d-dba7a5ee2ac7",
+        "_postman_id": "8a1d9387-6baf-4516-aa23-73c5a7a66a21",
         "description": "wshop\u7684Admin API\u6587\u6863",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
     },
@@ -203,7 +203,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"old_password\": \"officiis\",\n    \"passowrd\": \"eum\",\n    \"password_confirmation\": \"accusamus\"\n}"
+                            "raw": "{\n    \"old_password\": \"provident\",\n    \"passowrd\": \"qui\",\n    \"password_confirmation\": \"qui\"\n}"
                         },
                         "description": "\u4fee\u6539\u5bc6\u7801",
                         "response": []
@@ -1263,7 +1263,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "[]"
+                            "raw": "{\n    \"name\": \"quo\",\n    \"description\": \"eos\",\n    \"thumbnail\": 2,\n    \"seo_title\": \"numquam\",\n    \"seo_description\": \"et\",\n    \"slug\": \"tempora\",\n    \"product_ids\": []\n}"
                         },
                         "description": "",
                         "response": []
@@ -1404,7 +1404,7 @@
                     }
                 },
                 {
-                    "name": "Store a newly created resource in storage.",
+                    "name": "Create Product Tag",
                     "request": {
                         "url": {
                             "protocol": "http",
@@ -1429,9 +1429,9 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "[]"
+                            "raw": "{\n    \"name\": \"saepe\"\n}"
                         },
-                        "description": "",
+                        "description": "\u521b\u5efa\u4ea7\u54c1\u6807\u7b7e",
                         "response": []
                     }
                 },
@@ -1650,7 +1650,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"title\": \"optio\",\n    \"content\": \"vel\",\n    \"post_status\": \"publish\",\n    \"regular_price\": \"sint\",\n    \"sale_price\": 5395856.866985,\n    \"sku\": \"quaerat\",\n    \"weight\": 20,\n    \"manage_stock\": \"yes\",\n    \"stock\": 50,\n    \"backorders\": \"no\",\n    \"tags\": \"[47, 48]\",\n    \"categories\": \"[268]\",\n    \"gallery\": \"[1488,1489]\",\n    \"variants\": [\n        {\n            \"image\": 7,\n            \"regular_price\": 862341.18,\n            \"sale_price\": 102682006.4,\n            \"stock\": 4\n        }\n    ]\n}"
+                            "raw": "{\n    \"title\": \"excepturi\",\n    \"content\": \"voluptate\",\n    \"post_status\": \"publish\",\n    \"regular_price\": \"et\",\n    \"sale_price\": 5531041.27,\n    \"sku\": \"sit\",\n    \"weight\": 20,\n    \"manage_stock\": \"yes\",\n    \"stock\": 50,\n    \"backorders\": \"no\",\n    \"tags\": \"[47, 48]\",\n    \"categories\": \"[268]\",\n    \"gallery\": \"[1488,1489]\",\n    \"variants\": [\n        {\n            \"image\": 8,\n            \"regular_price\": 2.41,\n            \"sale_price\": 602756.94,\n            \"stock\": 7\n        }\n    ]\n}"
                         },
                         "description": "\u521b\u5efa\u5546\u54c1\u662fAdmin\u4e2d\u6bd4\u8f83\u590d\u6742\u7684\u4e00\u4e2a\u64cd\u4f5c\uff0c\u5206\u4e3a\u521b\u5efa\u7b80\u5355\u5546\u54c1\u548c\u53d8\u79cd\u5546\u54c1\u3002\n> \u521b\u5efa\u53d8\u79cd\u5546\u54c1\u793a\u4f8b\n\n```bash\ncurl -X POST \\\n  http:\/\/wshop.docker\/api\/admin\/products \\\n  -H 'Accept: application\/json' \\\n  -H 'Authorization: {{authorization}}' \\\n  -H 'Content-Type: application\/json' \\\n  -d '{\n\t\"title\": \"\u6d4b\u8bd5\u5546\u54c112233\",\n\t\"content\": \"\u5546\u54c1\u5185\u5bb9\u6d4b\u8bd5\",\n\t\"sale_price\": 18,\n\t\"regular_price\": 20,\n\t\"manage_stock\": \"yes\",\n\t\"sku\":\"1234567898m5\",\n\t\"stock\": 200,\n\t\"backorders\": \"no\",\n\t\"weight\": 20,\n\t\"post_status\": \"publish\",\n\t\"categories\": [268],\n\t\"tags\": [47, 48],\n\t\"gallery\": [\n    \t1488,1489\n\t],\n\t\"attrs\": [\n\t\t{\n\t\t\t\"name\": \"color\",\n\t\t\t\"value\": [\"red\", \"yellow\", \"green\"]\n\t\t},\n\t\t{\n\t\t\t\"name\": \"size\",\n\t\t\t\"value\": [\"lg\", \"xs\", \"m\"]\n\t\t}\n\t],\n\t\"variants\": [{\n\t\t\"image\": 1275,\n\t\t\"sku\": \"123456-1\",\n\t\t\"sale_price\": 35,\n\t\t\"regular_price\": 40,\n\t\t\"stock\": 2000,\n\t\t\"weight\": 10,\n\t\t\"attrs\": [{\n\t\t\t\"name\": \"color\",\n\t\t\t\"value\": \"red\"\n\t\t}, {\n\t\t\t\"name\": \"size\",\n\t\t\t\"value\": \"m\"\n\t\t}]\n\t},{\n\t\t\"image\": 1275,\n\t\t\"sku\": \"123456-2\",\n\t\t\"sale_price\": 35,\n\t\t\"regular_price\": 40,\n\t\t\"stock\": 20000,\n\t\t\"attrs\": [{\n\t\t\t\"name\": \"color\",\n\t\t\t\"value\": \"yellow\"\n\t\t}, {\n\t\t\t\"name\": \"size\",\n\t\t\t\"value\": \"m\"\n\t\t}]\n\t}]\n}'\n```\n",
                         "response": []
@@ -2123,38 +2123,6 @@
                     }
                 },
                 {
-                    "name": "Store a newly created resource in storage.",
-                    "request": {
-                        "url": {
-                            "protocol": "http",
-                            "host": "wshop.docker",
-                            "path": "\/api\/admin\/stocks",
-                            "query": []
-                        },
-                        "method": "POST",
-                        "header": [
-                            {
-                                "key": "Content-Type",
-                                "value": "application\/json"
-                            },
-                            {
-                                "key": "Accept",
-                                "value": "application\/json"
-                            },
-                            {
-                                "key": "Authorization",
-                                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"
-                            }
-                        ],
-                        "body": {
-                            "mode": "raw",
-                            "raw": "[]"
-                        },
-                        "description": "",
-                        "response": []
-                    }
-                },
-                {
                     "name": "Show Stock",
                     "request": {
                         "url": {
@@ -2187,7 +2155,7 @@
                     }
                 },
                 {
-                    "name": "Update the specified resource in storage.",
+                    "name": "Update Stock",
                     "request": {
                         "url": {
                             "protocol": "http",
@@ -2212,41 +2180,9 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "[]"
+                            "raw": "{\n    \"backorders\": \"quas\",\n    \"stock\": 12\n}"
                         },
-                        "description": "",
-                        "response": []
-                    }
-                },
-                {
-                    "name": "Remove the specified resource from storage.",
-                    "request": {
-                        "url": {
-                            "protocol": "http",
-                            "host": "wshop.docker",
-                            "path": "\/api\/admin\/stocks\/:stock",
-                            "query": []
-                        },
-                        "method": "DELETE",
-                        "header": [
-                            {
-                                "key": "Content-Type",
-                                "value": "application\/json"
-                            },
-                            {
-                                "key": "Accept",
-                                "value": "application\/json"
-                            },
-                            {
-                                "key": "Authorization",
-                                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"
-                            }
-                        ],
-                        "body": {
-                            "mode": "raw",
-                            "raw": "[]"
-                        },
-                        "description": "",
+                        "description": "\u66f4\u65b0\u5e93\u5b58\u6570\u91cf\u6216\u8005\u552e\u7f44\u653f\u7b56",
                         "response": []
                     }
                 }

@@ -128,7 +128,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"old_password":"officiis","passowrd":"eum","password_confirmation":"accusamus"}'
+    -d '{"old_password":"provident","passowrd":"qui","password_confirmation":"qui"}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/me/update-password</code></p>
@@ -607,9 +607,66 @@
     "http://wshop.docker/api/admin/categories" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
+    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
+    -d '{"name":"quo","description":"eos","thumbnail":2,"seo_title":"numquam","seo_description":"et","slug":"tempora","product_ids":[]}'
+</code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/categories</code></p>
+<h4>Body Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>required</td>
+<td>分类名称</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>string</td>
+<td>optional</td>
+<td>optional 分类描述</td>
+</tr>
+<tr>
+<td><code>thumbnail</code></td>
+<td>integer</td>
+<td>optional</td>
+<td>optional 缩略图</td>
+</tr>
+<tr>
+<td><code>seo_title</code></td>
+<td>string</td>
+<td>optional</td>
+<td>optional SEO标题</td>
+</tr>
+<tr>
+<td><code>seo_description</code></td>
+<td>string</td>
+<td>optional</td>
+<td>optional SEO描述</td>
+</tr>
+<tr>
+<td><code>slug</code></td>
+<td>string</td>
+<td>optional</td>
+<td>optional slug</td>
+</tr>
+<tr>
+<td><code>product_ids</code></td>
+<td>array</td>
+<td>optional</td>
+<td>optional 关联商品</td>
+</tr>
+</tbody>
+</table>
 <!-- END_3719ccc73395dc48c15553214edf4001 -->
 <!-- START_5bc1aff829d02f314fcda27538bf3cab -->
 <h2>获取分类详情</h2>
@@ -667,7 +724,8 @@
 <p><code>GET /api/admin/tags</code></p>
 <!-- END_14a30ef52ae6fb1e54786d6d9b213f2f -->
 <!-- START_a42e258e0cd58dc36aa07c39806079a0 -->
-<h2>Store a newly created resource in storage.</h2>
+<h2>Create Product Tag</h2>
+<p>创建产品标签</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -675,9 +733,30 @@
     "http://wshop.docker/api/admin/tags" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
+    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
+    -d '{"name":"saepe"}'
+</code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/tags</code></p>
+<h4>Body Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>required</td>
+<td>标签名称</td>
+</tr>
+</tbody>
+</table>
 <!-- END_a42e258e0cd58dc36aa07c39806079a0 -->
 <!-- START_409f250d5259dc40e29c38069449aab5 -->
 <h2>Display the specified resource.</h2>
@@ -866,7 +945,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"title":"optio","content":"vel","post_status":"publish","regular_price":"sint","sale_price":5395856.866985,"sku":"quaerat","weight":20,"manage_stock":"yes","stock":50,"backorders":"no","tags":"[47, 48]","categories":"[268]","gallery":"[1488,1489]","variants":[{"image":7,"regular_price":862341.18,"sale_price":102682006.4,"stock":4}]}'
+    -d '{"title":"excepturi","content":"voluptate","post_status":"publish","regular_price":"et","sale_price":5531041.27,"sku":"sit","weight":20,"manage_stock":"yes","stock":50,"backorders":"no","tags":"[47, 48]","categories":"[268]","gallery":"[1488,1489]","variants":[{"image":8,"regular_price":2.41,"sale_price":602756.94,"stock":7}]}'
 </code></pre>
 <blockquote>
 <p>Example response (200):</p>
@@ -1406,19 +1485,6 @@
 <h3>HTTP Request</h3>
 <p><code>GET /api/admin/stocks</code></p>
 <!-- END_26232ec886ec096700d53e120e419219 -->
-<!-- START_a65a11e80f8dbb448b338b53701b0cb1 -->
-<h2>Store a newly created resource in storage.</h2>
-<blockquote>
-<p>Example request:</p>
-</blockquote>
-<pre><code class="language-bash">curl -X POST \
-    "http://wshop.docker/api/admin/stocks" \
-    -H "Content-Type: application/json" \
-    -H "Accept: application/json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
-<h3>HTTP Request</h3>
-<p><code>POST /api/admin/stocks</code></p>
-<!-- END_a65a11e80f8dbb448b338b53701b0cb1 -->
 <!-- START_ab755e1d9c1697f0e2eeafcb097e1b15 -->
 <h2>Show Stock</h2>
 <blockquote>
@@ -1433,7 +1499,8 @@
 <p><code>GET /api/admin/stocks/{stock}</code></p>
 <!-- END_ab755e1d9c1697f0e2eeafcb097e1b15 -->
 <!-- START_e21884b0716c0d496da324bbcfef5934 -->
-<h2>Update the specified resource in storage.</h2>
+<h2>Update Stock</h2>
+<p>更新库存数量或者售罄政策</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -1441,24 +1508,38 @@
     "http://wshop.docker/api/admin/stocks/1" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
+    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
+    -d '{"backorders":"quas","stock":12}'
+</code></pre>
 <h3>HTTP Request</h3>
 <p><code>PUT /api/admin/stocks/{stock}</code></p>
 <p><code>PATCH /api/admin/stocks/{stock}</code></p>
+<h4>Body Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>backorders</code></td>
+<td>string</td>
+<td>required</td>
+<td>无库存时是否继续卖, 'yes'或'no'</td>
+</tr>
+<tr>
+<td><code>stock</code></td>
+<td>integer</td>
+<td>required</td>
+<td>库存数量</td>
+</tr>
+</tbody>
+</table>
 <!-- END_e21884b0716c0d496da324bbcfef5934 -->
-<!-- START_1b83eea86274181782ccd1f86d635b4e -->
-<h2>Remove the specified resource from storage.</h2>
-<blockquote>
-<p>Example request:</p>
-</blockquote>
-<pre><code class="language-bash">curl -X DELETE \
-    "http://wshop.docker/api/admin/stocks/1" \
-    -H "Content-Type: application/json" \
-    -H "Accept: application/json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
-<h3>HTTP Request</h3>
-<p><code>DELETE /api/admin/stocks/{stock}</code></p>
-<!-- END_1b83eea86274181782ccd1f86d635b4e -->
       </div>
       <div class="dark-box">
                         <div class="lang-selector">
