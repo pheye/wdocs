@@ -2,7 +2,7 @@
     "variables": [],
     "info": {
         "name": "wshop API",
-        "_postman_id": "b3adf300-ffd8-49b7-acd6-a49daab4767d",
+        "_postman_id": "03a081a7-430a-4e3a-abfa-bcb005fb91d0",
         "description": "wshop\u7684Admin API\u6587\u6863",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
     },
@@ -171,7 +171,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"old_password\": \"unde\",\n    \"passowrd\": \"beatae\",\n    \"password_confirmation\": \"nemo\"\n}"
+                            "raw": "{\n    \"old_password\": \"non\",\n    \"passowrd\": \"recusandae\",\n    \"password_confirmation\": \"ipsa\"\n}"
                         },
                         "description": "\u4fee\u6539\u5bc6\u7801",
                         "response": []
@@ -669,7 +669,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"code\": \"voluptatibus\",\n    \"sandbox\": true,\n    \"api_username\": \"eligendi\",\n    \"api_password\": \"deserunt\",\n    \"api_signature\": \"natus\"\n}"
+                            "raw": "{\n    \"code\": \"doloribus\",\n    \"sandbox\": false,\n    \"api_username\": \"fugiat\",\n    \"api_password\": \"asperiores\",\n    \"api_signature\": \"est\"\n}"
                         },
                         "description": "",
                         "response": []
@@ -899,7 +899,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"trackno\": \"soluta\",\n    \"sendemail\": false\n}"
+                            "raw": "{\n    \"trackno\": \"magnam\",\n    \"sendemail\": true\n}"
                         },
                         "description": "\u4fee\u6539\u53d1\u8d27\u72b6\u6001",
                         "response": []
@@ -945,13 +945,13 @@
                                 },
                                 {
                                     "key": "page",
-                                    "value": "facere",
+                                    "value": "iste",
                                     "description": "\u9875\u6570\uff0c\u4ece1\u5f00\u59cb",
                                     "disabled": false
                                 },
                                 {
                                     "key": "page_size",
-                                    "value": "iusto",
+                                    "value": "nihil",
                                     "description": "\u6bcf\u9875\u6570\u91cf\uff0c\u9ed8\u8ba4\u6570\u91cf25",
                                     "disabled": false
                                 }
@@ -1006,7 +1006,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"title\": \"dicta\",\n    \"content\": \"non\",\n    \"status\": \"sint\",\n    \"seo_title\": \"et\",\n    \"seo_description\": \"asperiores\",\n    \"slug\": \"culpa\"\n}"
+                            "raw": "{\n    \"title\": \"ullam\",\n    \"content\": \"earum\",\n    \"status\": \"expedita\",\n    \"seo_title\": \"quo\",\n    \"seo_description\": \"aut\",\n    \"slug\": \"animi\"\n}"
                         },
                         "description": "\u521b\u5efa\u9875\u9762",
                         "response": []
@@ -1070,7 +1070,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"title\": \"praesentium\",\n    \"content\": \"reiciendis\",\n    \"status\": \"rerum\",\n    \"seo_title\": \"sit\",\n    \"seo_description\": \"error\",\n    \"slug\": \"animi\"\n}"
+                            "raw": "{\n    \"title\": \"soluta\",\n    \"content\": \"odio\",\n    \"status\": \"autem\",\n    \"seo_title\": \"quia\",\n    \"seo_description\": \"cupiditate\",\n    \"slug\": \"occaecati\"\n}"
                         },
                         "description": "\u66f4\u65b0\u6307\u5b9a\u9875\u9762",
                         "response": []
@@ -1172,7 +1172,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"name\": \"officiis\",\n    \"description\": \"autem\",\n    \"thumbnail\": 7,\n    \"seo_title\": \"dolorem\",\n    \"seo_description\": \"reprehenderit\",\n    \"slug\": \"deleniti\",\n    \"product_ids\": []\n}"
+                            "raw": "{\n    \"name\": \"et\",\n    \"description\": \"tempore\",\n    \"thumbnail\": 18,\n    \"seo_title\": \"in\",\n    \"seo_description\": \"doloribus\",\n    \"slug\": \"rerum\",\n    \"product_ids\": []\n}"
                         },
                         "description": "\u521b\u5efa\u5206\u7c7b",
                         "response": []
@@ -1236,7 +1236,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"name\": \"architecto\",\n    \"description\": \"autem\",\n    \"thumbnail\": 8,\n    \"seo_title\": \"sint\",\n    \"seo_description\": \"molestiae\",\n    \"slug\": \"voluptate\",\n    \"product_ids\": []\n}"
+                            "raw": "{\n    \"name\": \"pariatur\",\n    \"description\": \"qui\",\n    \"thumbnail\": 18,\n    \"seo_title\": \"dicta\",\n    \"seo_description\": \"tempore\",\n    \"slug\": \"veniam\",\n    \"product_ids\": []\n}"
                         },
                         "description": "\u66f4\u65b0\u5206\u7c7b",
                         "response": []
@@ -1338,7 +1338,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"name\": \"consequuntur\"\n}"
+                            "raw": "{\n    \"name\": \"rerum\"\n}"
                         },
                         "description": "\u521b\u5efa\u4ea7\u54c1\u6807\u7b7e",
                         "response": []
@@ -1559,7 +1559,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"title\": \"voluptate\",\n    \"content\": \"vitae\",\n    \"post_status\": \"publish\",\n    \"regular_price\": 76.214322808,\n    \"price\": 0,\n    \"sku\": \"eaque\",\n    \"weight\": 20,\n    \"manage_stock\": \"yes\",\n    \"stock\": 50,\n    \"backorders\": \"no\",\n    \"tags\": \"[47, 48]\",\n    \"categories\": \"[268]\",\n    \"gallery\": \"[1488,1489]\",\n    \"variants\": [\n        {\n            \"image\": 15,\n            \"regular_price\": 133823.02172,\n            \"sale_price\": 2764614.823909569,\n            \"stock\": 20\n        }\n    ]\n}"
+                            "raw": "{\n    \"title\": \"natus\",\n    \"content\": \"nisi\",\n    \"post_status\": \"publish\",\n    \"regular_price\": 75003.892581161,\n    \"price\": 1.494,\n    \"sku\": \"cupiditate\",\n    \"weight\": 20,\n    \"manage_stock\": \"yes\",\n    \"stock\": 50,\n    \"backorders\": \"no\",\n    \"tags\": \"[47, 48]\",\n    \"categories\": \"[268]\",\n    \"gallery\": \"[1488,1489]\",\n    \"variants\": [\n        {\n            \"image\": 3,\n            \"regular_price\": 3359.87,\n            \"sale_price\": 0,\n            \"stock\": 10\n        }\n    ]\n}"
                         },
                         "description": "\u521b\u5efa\u5546\u54c1\u662fAdmin\u4e2d\u6bd4\u8f83\u590d\u6742\u7684\u4e00\u4e2a\u64cd\u4f5c\uff0c\u5206\u4e3a\u521b\u5efa\u7b80\u5355\u5546\u54c1\u548c\u53d8\u79cd\u5546\u54c1\u3002\n> \u521b\u5efa\u53d8\u79cd\u5546\u54c1\u793a\u4f8b\n\n```bash\ncurl -X POST \\\n  http:\/\/wshop.docker\/api\/admin\/products \\\n  -H 'Accept: application\/json' \\\n  -H 'Authorization: {{authorization}}' \\\n  -H 'Content-Type: application\/json' \\\n  -d '{\n\t\"title\": \"\u6d4b\u8bd5\u5546\u54c112233\",\n\t\"content\": \"\u5546\u54c1\u5185\u5bb9\u6d4b\u8bd5\",\n\t\"sale_price\": 18,\n\t\"regular_price\": 20,\n\t\"manage_stock\": \"yes\",\n\t\"sku\":\"1234567898m5\",\n\t\"stock\": 200,\n\t\"backorders\": \"no\",\n\t\"weight\": 20,\n\t\"post_status\": \"publish\",\n\t\"categories\": [268],\n\t\"tags\": [47, 48],\n\t\"gallery\": [\n    \t1488,1489\n\t],\n\t\"attrs\": [\n\t\t{\n\t\t\t\"name\": \"color\",\n\t\t\t\"value\": [\"red\", \"yellow\", \"green\"]\n\t\t},\n\t\t{\n\t\t\t\"name\": \"size\",\n\t\t\t\"value\": [\"lg\", \"xs\", \"m\"]\n\t\t}\n\t],\n\t\"variants\": [{\n\t\t\"image\": 1275,\n\t\t\"sku\": \"123456-1\",\n\t\t\"sale_price\": 35,\n\t\t\"regular_price\": 40,\n\t\t\"stock\": 2000,\n\t\t\"weight\": 10,\n\t\t\"attrs\": [{\n\t\t\t\"name\": \"color\",\n\t\t\t\"value\": \"red\"\n\t\t}, {\n\t\t\t\"name\": \"size\",\n\t\t\t\"value\": \"m\"\n\t\t}]\n\t},{\n\t\t\"image\": 1275,\n\t\t\"sku\": \"123456-2\",\n\t\t\"sale_price\": 35,\n\t\t\"regular_price\": 40,\n\t\t\"stock\": 20000,\n\t\t\"attrs\": [{\n\t\t\t\"name\": \"color\",\n\t\t\t\"value\": \"yellow\"\n\t\t}, {\n\t\t\t\"name\": \"size\",\n\t\t\t\"value\": \"m\"\n\t\t}]\n\t}]\n}'\n```\n",
                         "response": []
@@ -2121,7 +2121,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\n    \"backorders\": \"consequatur\",\n    \"stock\": 16\n}"
+                            "raw": "{\n    \"backorders\": \"atque\",\n    \"stock\": 14\n}"
                         },
                         "description": "\u66f4\u65b0\u5e93\u5b58\u6570\u91cf\u6216\u8005\u552e\u7f44\u653f\u7b56",
                         "response": []
