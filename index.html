@@ -49,7 +49,8 @@
 <!-- END_INFO -->
 <h1>Attachments</h1>
 <!-- START_ff94f22d0c8366839116637463b611c6 -->
-<h2>存储附件</h2>
+<h2>Create Attachment</h2>
+<p>存储附件</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -62,7 +63,7 @@
 <p><code>POST /api/admin/attachments</code></p>
 <!-- END_ff94f22d0c8366839116637463b611c6 -->
 <!-- START_cab85eb710522c4c23f8f898aa5ca2dc -->
-<h2>Display the specified resource.</h2>
+<h2>Get Attachment</h2>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -74,20 +75,6 @@
 <h3>HTTP Request</h3>
 <p><code>GET /api/admin/attachments/{attachment}</code></p>
 <!-- END_cab85eb710522c4c23f8f898aa5ca2dc -->
-<!-- START_509e50ff7f320862dec82cc333ee720f -->
-<h2>Update the specified resource in storage.</h2>
-<blockquote>
-<p>Example request:</p>
-</blockquote>
-<pre><code class="language-bash">curl -X PUT \
-    "http://wshop.docker/api/admin/attachments/1" \
-    -H "Content-Type: application/json" \
-    -H "Accept: application/json" \
-    -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
-<h3>HTTP Request</h3>
-<p><code>PUT /api/admin/attachments/{attachment}</code></p>
-<p><code>PATCH /api/admin/attachments/{attachment}</code></p>
-<!-- END_509e50ff7f320862dec82cc333ee720f -->
 <h1>Authorization</h1>
 <p>管理用户认证相关的管理</p>
 <!-- START_53dce2b2f37e248a1fe9a14b32adefd0 -->
@@ -128,7 +115,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"old_password":"eligendi","passowrd":"unde","password_confirmation":"laboriosam"}'
+    -d '{"old_password":"iure","passowrd":"rerum","password_confirmation":"exercitationem"}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/me/update-password</code></p>
@@ -380,7 +367,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"code":"accusamus","sandbox":false,"api_username":"officia","api_password":"quidem","api_signature":"illum"}'
+    -d '{"code":"reprehenderit","sandbox":true,"api_username":"et","api_password":"commodi","api_signature":"soluta"}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>PUT /api/admin/payment-gateways/{payment_gateway}</code></p>
@@ -523,7 +510,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"trackno":"corrupti","sendemail":true}'
+    -d '{"trackno":"occaecati","sendemail":true}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/orders/{id}/track</code></p>
@@ -555,7 +542,8 @@
 <!-- END_02ff23685d43e8bce7c79ca2b9f18d2a -->
 <h1>Pages</h1>
 <!-- START_ec24c50d4d626edbbfaec281b683bf99 -->
-<h2>列出页面</h2>
+<h2>List Pages</h2>
+<p>列出页面</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -568,7 +556,8 @@
 <p><code>GET /api/admin/pages</code></p>
 <!-- END_ec24c50d4d626edbbfaec281b683bf99 -->
 <!-- START_c88f19a70ce7edaf7722b90e063a548f -->
-<h2>创建页面</h2>
+<h2>Create Page</h2>
+<p>创建页面</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -581,7 +570,8 @@
 <p><code>POST /api/admin/pages</code></p>
 <!-- END_c88f19a70ce7edaf7722b90e063a548f -->
 <!-- START_55a595209c747f9e6cf2b636c98212be -->
-<h2>获取指定页面</h2>
+<h2>Get Page</h2>
+<p>获取指定页面</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -594,7 +584,8 @@
 <p><code>GET /api/admin/pages/{page}</code></p>
 <!-- END_55a595209c747f9e6cf2b636c98212be -->
 <!-- START_d2e17f38eb2798fca90234531378d86c -->
-<h2>更新指定页面</h2>
+<h2>Update Page</h2>
+<p>更新指定页面</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -608,7 +599,8 @@
 <p><code>PATCH /api/admin/pages/{page}</code></p>
 <!-- END_d2e17f38eb2798fca90234531378d86c -->
 <!-- START_50b44e3fa7d266f959488fb219560997 -->
-<h2>删除指定页面</h2>
+<h2>Delete Page</h2>
+<p>删除指定页面</p>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
@@ -647,7 +639,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"name":"est","description":"aut","thumbnail":15,"seo_title":"facilis","seo_description":"a","slug":"aut","product_ids":[]}'
+    -d '{"name":"voluptatem","description":"qui","thumbnail":14,"seo_title":"aspernatur","seo_description":"blanditiis","slug":"impedit","product_ids":[]}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/categories</code></p>
@@ -732,7 +724,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"name":"consequuntur","description":"quia","thumbnail":20,"seo_title":"et","seo_description":"quia","slug":"perspiciatis","product_ids":[]}'
+    -d '{"name":"expedita","description":"qui","thumbnail":4,"seo_title":"quia","seo_description":"temporibus","slug":"suscipit","product_ids":[]}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>PUT /api/admin/categories/{category}</code></p>
@@ -833,7 +825,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"name":"id"}'
+    -d '{"name":"ipsa"}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>POST /api/admin/tags</code></p>
@@ -1044,7 +1036,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"title":"est","content":"tempora","post_status":"publish","regular_price":461.24305635,"price":5,"sku":"voluptatem","weight":20,"manage_stock":"yes","stock":50,"backorders":"no","tags":"[47, 48]","categories":"[268]","gallery":"[1488,1489]","variants":[{"image":13,"regular_price":68169303.594,"sale_price":336450.948,"stock":8}]}'
+    -d '{"title":"modi","content":"beatae","post_status":"publish","regular_price":305,"price":33373178.97738014,"sku":"non","weight":20,"manage_stock":"yes","stock":50,"backorders":"no","tags":"[47, 48]","categories":"[268]","gallery":"[1488,1489]","variants":[{"image":14,"regular_price":6936.74,"sale_price":45287.55,"stock":5}]}'
 </code></pre>
 <blockquote>
 <p>Example response (200):</p>
@@ -1570,19 +1562,19 @@
 <h3>HTTP Request</h3>
 <p><code>DELETE /api/admin/shipping-zones/{shipping_zone}</code></p>
 <!-- END_79555e36a9b2c45fd9a9dea01afb6a19 -->
-<!-- START_c42bfcb937bcb2e5fc7f80caf98710d2 -->
+<!-- START_f75ba336e30779113f9cec853a3af420 -->
 <h2>获取可分配物流的国家列表</h2>
 <blockquote>
 <p>Example request:</p>
 </blockquote>
 <pre><code class="language-bash">curl -X GET \
-    -G "http://wshop.docker/api/admin/shipping-zones/available-countries" \
+    -G "http://wshop.docker/api/admin/shipping-zones/available/countries" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI"</code></pre>
 <h3>HTTP Request</h3>
-<p><code>GET /api/admin/shipping-zones/available-countries</code></p>
-<!-- END_c42bfcb937bcb2e5fc7f80caf98710d2 -->
+<p><code>GET /api/admin/shipping-zones/available/countries</code></p>
+<!-- END_f75ba336e30779113f9cec853a3af420 -->
 <h1>Stocks</h1>
 <!-- START_26232ec886ec096700d53e120e419219 -->
 <h2>List Stocks</h2>
@@ -1621,7 +1613,7 @@
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
     -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZTgzZDJhMzhlZjdkNWYwODFjMGE1YjExYjVmNWRiY2UwMTdiYTQ0MjE0ZThlZWMxOTgzZTFkZWQxZjViYjE0M2JmNWQ2MjRmYzYwZGMyYWEiLCJpYXQiOjE1NzkxNTc5MTMsIm5iZiI6MTU3OTE1NzkxMywiZXhwIjoxNjEwNzgwMzEzLCJzdWIiOiIyMiIsInNjb3BlcyI6WyIqIl19.rLafIlJmF5IcJrKiU8CaT0lLOLP5oOZuOUl8VN3dBA8gRR964DRd7vmioRniQAGPM4_7LqblJvmETo0DAGBe9AOWViI8I0GrMHuRMRtU-W7tRlYSIJYjwYmBeTn6IZR5QMzsLp3x86g0YSiHcEh0g37Q-hlAoIkcoxBGs0wRHusZLS3gRLpEmH5WT0ivJxDTZuRVsGz_C8a1oOv9Fqdo9Eiq3nknfbBuSXNuYG8_nE-TJ7Oxt2bHM4NCEHYV4wH90IyuqZYmm6HA0zyo34JfBrP_aVak_52qr2xo49AOZNmAMqL0oMcnjgT5vLlQSqHG-mfomPb3TnHtVWtWC0UyiQe8AQzxE7f235QR4u8_j5ozix7Pv9ZeB5maYMH3nAFMt3lYiaINGwx5q-hLEbBvLLqQHJQqt0g4JcaU5u-qvUUArOTRLrQZyZPuPC7IO9Cv2wJNMrmXrBCy_zMB_0ZrK08tpSPIRUO-CcF9zhoxBaRcVBdGCz6qsw7G0IhrahhQCxwJFWPdpparoJjdg3Rv_1okf17KU7XUqAaWSuDPFJtHl9T90lxwgX15EypeP8UCbMtN37nybyFWU6IjqsaSnoZ8oRfhH2rQM9waIQ1uKfS10lAplpQSst4JXcf4bZ7t7qNKPr-y5aie0tsCFqz2dA91HTY9FiyC6kSnq47Z4DI" \
-    -d '{"backorders":"fugiat","stock":5}'
+    -d '{"backorders":"fugiat","stock":18}'
 </code></pre>
 <h3>HTTP Request</h3>
 <p><code>PUT /api/admin/stocks/{stock}</code></p>
